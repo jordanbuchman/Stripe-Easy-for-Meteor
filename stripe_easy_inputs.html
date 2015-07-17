@@ -9,6 +9,7 @@
       <div class="input-group">
         <div class="input-group-addon"><i class="fa fa-credit-card"></i></div>
         <input type="text" class="form-control {{inputClasses}}" data-stripe="number" placeholder="Card Number" name="number" required/>
+        <div class="input-group-addon"><span style="color: red;" title="Required">*</span></div>
       </div>
     </div>
 
@@ -19,6 +20,7 @@
           <div class="input-group">
             <div class="input-group-addon"><i class="fa fa-calendar-o"></i></div>
             <input type="text" class="form-control {{inputClasses}}" placeholder="MM/YY" name="expire"  required/>
+            <div class="input-group-addon"><span style="color: red;" title="Required">*</span></div>
           </div>
         </div>
         
@@ -29,6 +31,7 @@
           <div class="input-group">
             <div class="input-group-addon"><i class="fa fa-lock"></i></div>
             <input type="text" class="form-control {{inputClasses}}" placeholder="CVC" name="cvc" required/>
+            <div class="input-group-addon"><span style="color: red;" title="Required">*</span></div>
           </div>
         </div>
 
